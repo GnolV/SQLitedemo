@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mHome"
+        android:title="Hom nay"
+        />
+    <item android:id="@+id/mHistory"
+        android:title="Lich su"
+        />
+    <item android:id="@+id/mSearch"
+        android:title="Tim kiem"
+        />
+</menu>
