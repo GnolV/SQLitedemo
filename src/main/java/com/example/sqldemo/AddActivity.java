@@ -75,6 +75,7 @@ public class AddActivity extends AppCompatActivity implements View.OnClickListen
                 Item i = new Item(t,c, p, d);
                 SQLiteHelper db = new SQLiteHelper(this);
                 db.addItem(i);
+                finish();
             }
         }
     }
