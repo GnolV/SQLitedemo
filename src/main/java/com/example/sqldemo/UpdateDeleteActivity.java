@@ -103,6 +103,7 @@ public class UpdateDeleteActivity extends AppCompatActivity implements View.OnCl
             AlertDialog.Builder builder = new AlertDialog.Builder(view.getContext());
             builder.setTitle("Thong bao xoa");
             builder.setMessage("Ban co chac muon xoa " + item.getTitle() + "khong?");
+            builder.setIcon(R.drawable.remove);
             builder.setPositiveButton("Co", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {

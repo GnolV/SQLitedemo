@@ -28,6 +28,7 @@
         android:layout_marginBottom="60dp"
         android:layout_marginRight="20dp"
         android:backgroundTint="@color/yellow"
+        android:src="@drawable/add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </RelativeLayout>
